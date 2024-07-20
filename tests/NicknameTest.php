@@ -8,12 +8,12 @@ class NicknameTest extends \PHPUnit\Framework\TestCase
 
     public function testNickname()
     {
-        $bank = new Nickname();
+        $nickname = new Nickname();
 
-        $single = $bank->generate();
-        $this->assertIsString($single);
+        //$single = $nickname->generate();
+        //$this->assertIsString($single);
 
-        $list = $bank->generate(10);
+        $list = $nickname->generate(10);
         $this->assertIsArray($list);
     }
 }

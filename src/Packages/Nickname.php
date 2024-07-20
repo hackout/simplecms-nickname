@@ -88,7 +88,7 @@ class Nickname
             $nicknames[] = $nickname;
         }
         $this->clearDict();
-        return $num == 1 ? (string) $nicknames[0] : $nickname;
+        return $num == 1 ? $nickname : $nicknames;
     }
 
     private function clearDict(): void
