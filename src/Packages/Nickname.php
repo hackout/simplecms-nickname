@@ -23,9 +23,9 @@ class Nickname
 
     public function __construct()
     {
-        $this->mode = 'name';// config('cms_nickname.mode', 'name');
-        $this->append_length = 4;// (int) config('cms_nickname.append_length', 4);
-        $this->paths = [];// (array) config('cms_nickname.dicts', []);
+        $this->mode = config('cms_nickname.mode', 'name');
+        $this->append_length = (int) config('cms_nickname.append_length', 4);
+        $this->paths = (array) config('cms_nickname.dicts', []);
     }
 
     private function loadDict(): void
@@ -88,7 +88,7 @@ class Nickname
             $nicknames[] = $nickname;
         }
         $this->clearDict();
-        return $num == 1 ? $nickname : $nicknames;
+        return $num == 1 ? head($nicknames) : $nicknames;
     }
 
     private function clearDict(): void
