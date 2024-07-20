@@ -2,7 +2,7 @@
 
 📦 A simple generator that can generate default nicknames
 
-English | [简体中文](./README.md)
+English | [简体中文](./README_zhCN.md)
 
 [![Latest Stable Version](https://poser.pugx.org/simplecms/nickname/v/stable.svg)](https://packagist.org/packages/simplecms/nickname) [![Latest Unstable Version](https://poser.pugx.org/simplecms/nickname/v/unstable.svg)](https://packagist.org/packages/simplecms/nickname) [![Code Coverage](https://scrutinizer-ci.com/g/overtrue/easy-sms/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hackout/simplecms-nickname/?branch=master) [![Total Downloads](https://poser.pugx.org/simplecms/nickname/downloads)](https://packagist.org/packages/simplecms/nickname) [![License](https://poser.pugx.org/simplecms/nickname/license)](https://packagist.org/packages/simplecms/nickname)
 
