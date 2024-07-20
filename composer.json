@@ -1,0 +1,38 @@
+{
+    "name": "simplecms/nickname",
+    "description": "用户昵称",
+    "keywords": [
+        "laravel",
+        "nickname",
+        "simplecms"
+    ],
+    "version": "1.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimpleCMS\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hackout",
+            "email": "hackout@vip.qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "simplecms/framework": ">=1.0",
+        "w7corp/easywechat": ">=6.0",
+        "alipaysdk/easysdk": ">=2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimpleCMS\\Nickname\\NicknameServiceProvider"
+            ],
+            "aliases": {
+                "Nickname": "SimpleCMS\\Nickname\\Facades\\Nickname"
+            }
+        }
+    }
+}
