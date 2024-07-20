@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SimpleCMS\\Payment\\": "src/"
+            "SimpleCMS\\Nickname\\": "src/"
         }
     },
     "authors": [
