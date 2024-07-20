@@ -15,6 +15,7 @@
 
 ```bash
 composer require simplecms/nickname
+php artisan vendor:publish --provider="SimpleCMS\Nickname\NicknameServiceProvider" --tag=simplecms
 ```
 
 ## 使用方法

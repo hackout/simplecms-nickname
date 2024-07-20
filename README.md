@@ -15,6 +15,7 @@ English | [简体中文](./README.md)
 
 ```bash
 composer require simplecms/nickname
+php artisan vendor:publish --provider="SimpleCMS\Nickname\NicknameServiceProvider" --tag=simplecms
 ```
 
 ## Usage
