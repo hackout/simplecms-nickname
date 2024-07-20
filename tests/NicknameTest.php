@@ -10,8 +10,8 @@ class NicknameTest extends \PHPUnit\Framework\TestCase
     {
         $nickname = new Nickname();
 
-        //$single = $nickname->generate();
-        //$this->assertIsString($single);
+        $single = $nickname->generate();
+        $this->assertIsString($single);
 
         $list = $nickname->generate(10);
         $this->assertIsArray($list);
